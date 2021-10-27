@@ -1,0 +1,148 @@
+body {
+  background-color: #343a40 !important;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-center .nav-link {
+  text-align: center;
+}
+
+.navbar-nav {
+  /* inline-flex:elementa platumu aprobezo ap ta izmeriem */
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+}
+
+.navbar-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-photo {
+  width: 300px;
+}
+
+.about_me_block {
+  margin-top: 3.75em;
+  text-align: center;
+  color: #fff;
+}
+
+.about_me_block .col-12 {
+  text-align: center;
+}
+
+.about_me_block h3 {
+  color: #fff;
+  border: 0.125em solid white;
+  padding: 0.9375em 3.125em;
+}
+
+.main_block {
+  padding-top: 1.875em;
+}
+
+.main_block h1, .main_block h4, .main_block h6 {
+  color: #fff;
+}
+
+.skills_block {
+  color: #fff;
+}
+
+.skills_block h3 {
+  color: #fff;
+  border: 0.125em solid white;
+  padding: 0.9375em 3.125em;
+}
+
+.skills_block .col-12 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.pt-3 {
+  padding-top: 3.125em;
+}
+
+.hobbies_block img {
+  max-width: 100%;
+}
+
+.hobbies_block .col-md-4 {
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  height: 0.0625em;
+  background: #333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff));
+  background-image: linear-gradient(#fff);
+}
+
+.contacts {
+  background-color: #000;
+}
+
+.contact_block h3 {
+  border: 0.125em solid white;
+  padding: 0.9375em 3.125em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .navbar .nav-link {
+    margin-right: 3rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .about_me_block .mobile {
+    padding-top: 40px;
+  }
+  .col-md-4 {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 750px) {
+  .desktop {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+}
+
+.main_menu {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fas.fa-baby {
+  font-size: 30px;
+  color: #1bf5f5;
+}
+
+.fas.fa-suitcase {
+  font-size: 30px;
+  color: #805403;
+}
+
+.fas.fa-star {
+  font-size: 30px;
+  color: #ffee04;
+}
+/*# sourceMappingURL=style.css.map */

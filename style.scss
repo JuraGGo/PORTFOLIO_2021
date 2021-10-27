@@ -1,0 +1,150 @@
+@function pxToEm($px, $base: 16) {
+  @return $px / $base + 0em;
+}
+
+body {
+  background-color: #343a40!important;
+  min-width: fit-content;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-center .nav-link{
+  text-align: center;
+}
+
+.navbar-nav {
+    /* inline-flex:elementa platumu aprobezo ap ta izmeriem */
+    display: inline-flex!important;
+}
+
+.navbar-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.main-photo {
+  width: 300px;
+}
+
+.about_me_block {
+    margin-top: pxToEm(60);
+    text-align: center;
+    color: #fff;
+
+    .col-12 {
+        text-align: center;
+    }
+}
+
+.about_me_block h3 {
+    color: #fff;
+    border: pxToEm(2) solid white;
+    padding: pxToEm(15) pxToEm(50);
+}
+
+.main_block {
+    padding-top: pxToEm(30);
+
+    h1,h4,h6 {
+        color: #fff;
+    }
+}
+
+.skills_block 
+{
+    color: #fff;
+    
+    h3 {
+    color: #fff;
+    border: pxToEm(2) solid white;
+    padding: pxToEm(15) pxToEm(50);
+    }
+    .col-12 {
+        text-align: center;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+.pt-3 {
+    padding-top: pxToEm(50);
+}
+
+.hobbies_block 
+{
+    img {
+        max-width: 100%;
+    }
+    // lai bildes butu kopa
+    .col-md-4{
+        padding:0;
+    }
+}
+
+hr {
+    border: 0;
+    height: pxToEm(1);
+    background: #333;
+    background-image: linear-gradient(#fff);
+}
+
+.contacts {
+    background-color: #000;
+}
+
+.contact_block {
+    h3 {
+        border: pxToEm(2) solid white;
+        padding: pxToEm(15) pxToEm(50);
+    }
+}
+
+footer a {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) { 
+    .navbar .nav-link {
+        margin-right: 3rem!important;
+    }  
+}
+
+@media (max-width: 768px) {
+    .about_me_block .mobile {
+          padding-top: 40px;
+        }  
+        .col-md-4 {
+            padding-top: 20px;
+  }
+}
+
+@media (min-width: 750px) {
+    .desktop {
+          padding-top: 40px;
+          padding-bottom: 30px;
+
+        }  
+}
+
+.main_menu {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fas{
+&.fa-baby{
+ font-size: 30px;
+ color: rgb(27, 245, 245);
+
+}
+&.fa-suitcase{
+    font-size: 30px;
+    color: rgb(128, 84, 3);
+}
+
+&.fa-star{
+    font-size: 30px;
+    color: rgb(255, 238, 4);
+}
+}
